@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     int p,r,t;
-    cout<<"Enetr the value of p,r,t :";
+    cout<<"Enter the value of p,r,t :";
     cin>>p;
     cin>>r;
     cin>>t;
