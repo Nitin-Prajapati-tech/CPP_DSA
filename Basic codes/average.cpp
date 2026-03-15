@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int maths;
+    int math;
     int physics;
     int chemistry;
     cout<<"Enter the marks of math :";
