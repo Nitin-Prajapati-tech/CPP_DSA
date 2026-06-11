@@ -2,6 +2,7 @@
 using namespace std;
 
 void selectionSort(int arr[] , int n ){
+
     //o(n^2);
     for(int i = 0; i<n-1; i++){
         int minIdx = i;
@@ -17,6 +18,7 @@ void selectionSort(int arr[] , int n ){
     print(arr, n);
    
 }
+
 int mian(){
     int arr[5] = {4,5,7,2,6};
     int n = sizeof(arr) / sizeof(int);
