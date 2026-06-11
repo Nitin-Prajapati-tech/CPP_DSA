@@ -14,6 +14,7 @@ void selectionSort(int arr[] , int n ){
         }
         swap(arr[i] , arr[minIdx]);
     }
+    print(arr, n);
    
 }
 int mian(){
