@@ -13,7 +13,7 @@ void insertionSort(int arr[], int n){
     
 
     }
-    insertionSort(arr,n);
+    print(arr , n);
 }
 int main(){
     int arr[5] = {3,5,4,2,6};
