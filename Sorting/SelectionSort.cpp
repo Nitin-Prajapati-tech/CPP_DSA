@@ -1,5 +1,10 @@
 #include<iostream>
 using namespace std;
+void print(int arr[], int n){
+    for(int i = 0; i<n; i++){
+        cout<<arr[i] << " ";
+    }
+}
 
 void selectionSort(int arr[] , int n ){
 
@@ -19,7 +24,7 @@ void selectionSort(int arr[] , int n ){
    
 }
 
-int mian(){
+int main(){
     int arr[5] = {4,5,7,2,6};
     int n = sizeof(arr) / sizeof(int);
     selectionSort(arr, n);
