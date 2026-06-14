@@ -24,6 +24,8 @@ vector<int> pairSum(vector<int> arr, int target){
 int main(){
     vector<int> vec  = {2,7,11,15};
     int target = 9;
-    pairSum(vec , target) ;
+     vector<int> ans= pairSum(vec , target);
+     cout<<ans[0]<<" ,"<<ans[1]<<endl;
+    return 0;
 }
 
